@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    background-color: #ebeaea;
+    display: flex;
+    align-items: center;
+    /* Rata Atas bawah*/
+    /* justify-content: center; Rata Kanan Kiri */
+    height: 10vh;
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul li .active {
+    color: orangered;
+}
+
+nav .nav-right .active {
+    /* color: white; */
+    text-decoration: underline;
+}
+
+.nav-left {
+    /* Mengatur Lebarnya */
+    flex: 50%;
+
+
+}
+
+.nav-right {
+    flex: 50%;
+    text-align: end;
+    margin-right: 25px;
+}
+
+.nav-right a {
+    background-color: orangered;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+form {
+    /* background-color: salmon; */
+    width: 550px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+form div{
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input, select, textarea{
+    background-color:  #dfdede;
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border-radius: 10px;
+border: 1px solid #dbdbdb;
+resize: none;
+}
+
+button {
+    background-color: orangered;
+    color: white;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+}
